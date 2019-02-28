@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RadioGroup
+        android:id="@+id/rGrpMaestros"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rBtnMartina"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Martina Isela Mendoza" />
+
+        <RadioButton
+            android:id="@+id/rBtnRuben"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ruben Hernandez" />
+
+        <RadioButton
+            android:id="@+id/rBtnArzola"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Luis Raul Arzola" />
+
+        <RadioButton
+            android:id="@+id/rBtnCamacho"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alberto Camacho" />
+
+        <RadioButton
+            android:id="@+id/rBtnTalavera"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Sergio Talavera" />
+
+    </RadioGroup>
+
+</LinearLayout>
